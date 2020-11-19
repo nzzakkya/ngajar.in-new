@@ -1,0 +1,41 @@
+<style type="text/css">
+     body {
+         background: #101123;
+         font-family: sans-serif;
+     }
+     .main {
+         margin:auto 10%;
+         padding-top: 8%;
+         text-align: center;
+         color: #696969;
+     }
+     h4 {
+         margin-bottom: 40px;
+         font-size: 30px;
+         color: #fff;
+     }
+     #clock > div {
+         border-radius: 5px;
+         background: #ffa500;
+         padding: 20px 20px 10px 20px;
+         color: #fff;
+         display: inline-block;
+     }
+     #clock > div > p {
+         font-size: 16px;
+     }
+     #days, #hours, #minutes, #seconds {
+         padding: 20px;
+         font-size: 20px;
+         background: #fb8e00;
+         display: inline-block;
+         width: 40px;
+     }
+     span.turn {
+         animation: turn 0.7s ease;
+     }
+     @keyframes turn {
+         0% {transform: rotateX(0deg)}
+         100% {transform: rotateX(360deg)}
+     }
+</style>

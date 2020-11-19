@@ -1,0 +1,5 @@
+@extends('layout.app')
+@section('content')
+@include('layout.alert')
+@include('layout.slideshow')
+@endsection('content')
